@@ -1,0 +1,15 @@
+
+📌 Project Statement
+This project is designed to automate the job search process based on your resume. It extracts key technical skills from your PDF resume, searches Google for relevant job listings based on those skills, and stores the results in an Excel file. This tool is especially useful for professionals in DATA SCIENCE, MACHINE LEARNING, and PYTHON development roles.
+
+📥 Input
+A resume in PDF format.
+Resume must be named **resume.pdf** and placed in the same folder as the script.
+The resume should include technical skills like PYTHON, SQL, MACHINE LEARNING, etc.
+
+📤 Output
+An Excel file named **job_results.xlsx**.
+Each row contains:
+Skill (e.g., PYTHON)
+Company Name (parsed from job link)
+Job Link (URL from Google search)
